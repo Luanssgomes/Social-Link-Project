@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1, p, a{
+    font-family: "Inter";
+    color: hsl(0, 0%, 100%);
+}
+
+p, a {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    width: 200px;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 25px;
+}
+    .imagem {
+        margin-bottom: 10px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .identification {
+        text-align: center;
+    }
+
+        .identification h1 {
+            font-size: 21px;
+            font-weight: 700;
+            padding: 5px;
+        }
+
+        .identification p {
+            color: hsl(75, 94%, 57%);
+        }
+
+    .profession {
+        margin: 20px 0 15px 0;
+    }
+        .profession p {
+            font-weight: 400;
+        }
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+        .bg {
+            background-color: 
+            hsl(0, 0%, 20%);
+            text-align: center;
+            padding: 7px;
+            border-radius: 0.3rem;
+        }
+        .bg:hover {
+            color: black;
+            background-color: hsl(75, 94%, 57%);
+        }
+        
